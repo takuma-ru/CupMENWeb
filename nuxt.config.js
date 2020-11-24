@@ -1,9 +1,9 @@
 module.exports = {
+  target: 'static',
   manifest: {
-    name: 'testApp',
-    short_name: 'shortName',
-    title: 'test',
-    'og:title': 'ogtest',
+    name: 'CupMEN',
+    short_name: 'MEN',
+    title: 'カップラーメン',
     description: 'appDescription',
     'og:description': 'ogDescription',
     lang: 'ja',
@@ -20,7 +20,11 @@ module.exports = {
     '@/plugins/element-ui'
   ],
   generate: {
-    minify: {
+    subFolders: false,
+    routes: [
+      '/About'
+    ],
+      minify: {
       collapseBooleanAttributes: true,
       collapseWhitespace: true,
       decodeEntities: true,

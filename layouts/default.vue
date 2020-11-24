@@ -1,25 +1,24 @@
 <template>
   <div>
-    <el-tabs v-model="activeName" @tab-click="handleClick">
-      <el-tab-pane label="User" name="first">User</el-tab-pane>
-      <el-tab-pane label="Config" name="second">Config</el-tab-pane>
-      <el-tab-pane label="Role" name="third">Role</el-tab-pane>
-      <el-tab-pane label="Task" name="fourth">Task</el-tab-pane>
-    </el-tabs>
+    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+      <el-menu-item @click="$router.push('/')" index="1">Home</el-menu-item>
+      <el-menu-item @click="$router.push('/About')" index="2">About</el-menu-item>
+    </el-menu>
     <Nuxt />
   </div>
 </template>
+
 <script>
   export default {
     data() {
       return {
-        activeName: 'first'
+        activeIndex: '1',
       };
     },
     methods: {
-      handleClick(tab, event) {
-        console.log(tab, event);
+      handleSelect(key, keyPath) {
+        console.log(key, keyPath);
       }
     }
-  };
+  }
 </script>
