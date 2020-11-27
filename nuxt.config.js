@@ -1,34 +1,64 @@
 module.exports = {
   target: 'static',
-  manifest: {
-    name: 'CupMEN',
-    short_name: 'MEN',
-    title: 'カップラーメン',
-    description: 'appDescription',
-    'og:description': 'ogDescription',
-    lang: 'ja',
-    theme_color: '#ffffff',
-    background_color: '#ffffff'
+  
+  head: {
+    titleTemplate: 'カップラーメン',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      // `hid` は一意の識別子として使用されます。`vmid` は動作しないので使わないでください
+      { hid: 'description', name: 'description', content: 'Meta description' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' } // ここを変更する
+    ]
   },
+
   build: {
+    extend (config, { isDev, isClient }) {
+      if (!isDev) {
+        config.output.publicPath = './_nuxt/'
+      }
+    },
     vendor: ['element-ui']
   },
+
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+    }
+  },
+
   css: [
     'element-ui/lib/theme-chalk/index.css'
   ],
+
   plugins: [
     '@/plugins/element-ui'
   ],
+
   generate: {
     subFolders: false,
     routes: [
-      '/About'
+      '/About',
+      '/Acecook',
+      '/Area',
+      '/Conveni',
+      '/Meisei',
+      '/Nissin',
+      '/Overseas',
+      '/Sanyoo',
+      '/Toyo',
     ],
       minify: {
       collapseBooleanAttributes: true,
       collapseWhitespace: true,
       decodeEntities: true,
-      minifyCSS: true,
+      minifyCSS: false,
       minifyJS: true,
       processConditionalComments: true,
       removeAttributeQuotes: false,
