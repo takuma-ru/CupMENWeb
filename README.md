@@ -5,9 +5,10 @@
 ### 使用しているフレームワーク
 - Vue.js
 - Nuxt.js(generate機能)
-- element-ui(ヘッダー類)
+- element-ui(極力使わない)
 
 ### 注意事項
 - mainブランチ直接pushすることは原則禁止(常識)
-- commitメッセージは英語で書く(Add 〇〇, Update 〇〇, Fix 〇〇...)
-- ProjectのToDoを活用
+- commitメッセージは**英語**で書く(Add 〇〇, Update 〇〇, Fix 〇〇, Delete 〇〇)
+- **ProjectのToDo**を活用
+- 新しく何か作る場合は**Issues**で新しいissueを立ててからつくること
