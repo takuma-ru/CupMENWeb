@@ -1,3 +1,3 @@
 <template>
-<p>About.vue</p>
+<p>コンビニ限定</p>
 </template>

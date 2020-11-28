@@ -1,3 +1,7 @@
+/*
+  Nuxtの設定
+  ここを変更するときはブランチがmainしかないときにやること(コンフリクト対策)
+*/
 module.exports = {
   target: 'static',
   
@@ -6,11 +10,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      // `hid` は一意の識別子として使用されます。`vmid` は動作しないので使わないでください
       { hid: 'description', name: 'description', content: 'Meta description' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' } // ここを変更する
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
 
@@ -48,7 +51,7 @@ module.exports = {
       '/Acecook',
       '/Area',
       '/Conveni',
-      '/Meisei',
+      '/Myojo',
       '/Nissin',
       '/Overseas',
       '/Sanyoo',

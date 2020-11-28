@@ -1,3 +1,3 @@
 <template>
-<p>About.vue</p>
+<p>海外のカップ麺</p>
 </template>

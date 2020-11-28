@@ -1,3 +1,3 @@
 <template>
-<p>About.vue</p>
+<p>エースコック</p>
 </template>
