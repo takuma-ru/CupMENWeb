@@ -5,6 +5,11 @@
       <h4>Nuxt.js + Element?</h4>
       <el-rate v-model="value" :colors="['#2F3D4D', '#64B486', '#4B7C6E']"></el-rate>
     </div>
+
+    <div v-for="(item, i) in $store.state.sanyoo" :key="i">
+      <p>{{ item.name }}</p>
+    </div>
+
   </div>
 </template>
 
@@ -18,8 +23,8 @@
 export default {
   data () {
     return {
-      value: null
+      value: null,
     }
-  }
+  },
 }
 </script>
