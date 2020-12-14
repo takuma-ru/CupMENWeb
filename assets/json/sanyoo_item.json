@@ -1,0 +1,110 @@
+[
+  {
+    "name": "商品名 string",
+    "img": "写真",
+    "price": "価格 int (オープン価格などの場合: -1)",
+    "description": "特徴・説明 string(html)",
+    "genre": "ジャンル int [ラーメン: 0][うどん: 1][そば: 2][焼きそば: 3][その他: 4]",
+    "hot": "辛さ int 0 or 1 or 2(要検討)",
+    "status": "販売状況 int [販売中: 1][販売終了: 0][地域限定: 2][期間限定: 3]" 
+  },
+  {
+    "name": "",
+    "img": "",
+    "price": 0,
+    "description": "",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　しょうゆ味どんぶり",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2019/02/1903soydon1D.jpg",
+    "price": 212,
+    "description": "めんはしょうゆを練り込んでおりスープがよくなじみます。張りがあり、しなやかで歯切れのよい香ばしいめんです。チキンのうまみに、ジンジャー、ガーリック、オニオンの香味野菜と香辛料の風味がきいたしょうゆ味スープです。ザク切りにしたチンゲン菜、白菜、キャベツ、その他コーン、人参の5種類の野菜を使用し、フリーズドライ製法で素材の魅力を再現した食べ応えのある具材です。",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　カップスター　醤油",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/07/2008CSS10.jpg",
+    "price": 212,
+    "description": "ツルツルとのど越しのよい細めんに、丸大豆醤油をベースとした味付けをし、適度な香ばしさをつけることで、スープのなじみがよくなっています。華やかな醤油の風味にビーフのコクとうまみが合わさった、風味豊かな醤油味スープです。",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　和ラー　三重　伊勢海老汁風",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/10/2010WRM10_2.jpg",
+    "price": 212,
+    "description": "三重の「伊勢海老汁」をイメージしたえびの豊かなうまみと深みのある味噌を合わせた味噌味ラーメンです",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },  
+  {
+    "name": "サッポロ一番　ポケモンヌードル　しょうゆ味",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/12/9af8d17220cfc0f35e6f9a96fa616cda.jpg",
+    "price": 154,
+    "description": "かわいいかまぼことおまけシールが入った、子供がおやつ感覚で食べられるしょうゆ味のカップめんです。",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "名店の味　純連　札幌濃厚みそ",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/02/2003MAM01.jpg",
+    "price": 242,
+    "description": "北海道・札幌の人気ラーメン店「純連」の味わいを再現した、濃厚で奥深い味わいのみそラーメンです。",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　旅麺　会津・喜多方　醤油ラーメン",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/02/2002431101.jpg",
+    "price": -1,
+    "description": "会津・喜多方の味を手軽に楽しめるご当地カップめんです。",
+    "genre": 0,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　旅麺　浅草　ソース焼そば",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/02/2002432201.jpg",
+    "price": -1,
+    "description": "ソースが香ばしい東京 浅草の焼そばを手軽に楽しめるご当地カップめんです。",
+    "genre": 3,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "サッポロ一番　オタフクお好みソース味焼そば",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/03/2004otafuku.jpg",
+    "price": 212,
+    "description": "オタフクソース株式会社と共同開発したオリジナルソースが決め手のレギュラーサイズのカップ焼そばです。コシがあり、もっちりとした食感のナチュラルなストレートの中太めんです。",
+    "genre": 3,
+    "hot": 0,
+    "status": 1 
+  },
+  {
+    "name": "丸大食品監修　スンドゥブ辛口味　うどん",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/11/2011CDU05.jpg",
+    "price": 212,
+    "description": "ポークにあさりの旨みを合わせ、ガーリック、唐辛子をきかせた辛口のスンドゥブ風うどんです。ポークとあさりの旨みにガーリックの風味、唐辛子の辛みをきかせた、奥深い味わいの辛口のスンドゥブ風スープに仕上げました",
+    "genre": 1,
+    "hot": 1,
+    "status": 1 
+  },
+  {
+    "name": "麺創研紅監修　鬼紅　濃厚激辛味噌",
+    "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2020/11/2011BTM06.jpg",
+    "price": 242,
+    "description": "東京・府中のラーメン店「麺創研　紅」の鬼紅らーめんの味わいをタテ型ビッグカップで再現しました。赤味噌、白味噌のコクに、ポークやチキンのうまみ、ガーリックやオニオンの香味野菜を合わせ、唐辛子やラー油の辛みをきかせました。唐辛子の刺激的な辛みが特徴の激辛味噌味スープです。",
+    "genre": 0,
+    "hot": 2,
+    "status": 1 
+  }
+  ]

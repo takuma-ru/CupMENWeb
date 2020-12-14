@@ -17,7 +17,7 @@
       <el-menu-item @click="$router.push('/Myojo')" index="6">Myojo</el-menu-item>
       <el-menu-item @click="$router.push('/Nissin')" index="7">Nissin</el-menu-item>
       <el-menu-item @click="$router.push('/Overseas')" index="8">Overseas</el-menu-item>
-      <el-menu-item @click="$router.push('/Sanyoo')" index="9">About</el-menu-item>
+      <el-menu-item @click="$router.push('/Sanyoo')" index="9">Sanyoo</el-menu-item>
       <el-menu-item @click="$router.push('/Toyo')" index="10">Toyo</el-menu-item>
     </el-menu>
     <Nuxt />
