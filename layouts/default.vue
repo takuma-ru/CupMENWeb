@@ -34,6 +34,9 @@
 
   .main{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 64px;
     margin-left: 1vw;
     margin-right: 1vw;
