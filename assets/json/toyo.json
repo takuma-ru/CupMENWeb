@@ -1,0 +1,93 @@
+[
+    {
+        "name": "赤いきつねうどん",
+        "img": "https://www.maruchan.co.jp/aka-midori/img/nudole-aka.png",
+        "price": "212",
+        "description": "日本全国エリアごとに味を変えていて親しみもある商品です。",
+        "genre": "1",
+        "hot": "0",
+        "status": "2"
+    },
+    {
+        "name": "黒い豚カレーうどん",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/6bf37187dd7b3b50100f411db9c759ea.png",
+        "price": "212",
+        "description": "なめらかでコシのある太めの麺に、豚の旨みと玉ねぎの甘みがマッチした、とろみのあるつゆのカレーうどん。",
+        "genre": "1",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "緑のたぬき天そば",
+        "img": "https://www.maruchan.co.jp/aka-midori/img/nudole-midori.png",
+        "price": "212",
+        "description": "日本全国エリアごとに味を変えていて親しみもある商品です。",
+        "genre": "2",
+        "hot": "0",
+        "status": "2"
+    },
+    {
+        "name": "紺のきつねそば",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/3d52c73d9f1712fa2854937cb6b69e9c.png",
+        "price": "212",
+        "description": "のどごしのよいそばに、鰹と昆布のだしを利かせた風味豊かなコクのあるつゆで、ふっくら甘いお揚げが入っています。",
+        "genre": "2",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "麺づくり　鶏ガラ醤油",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/cbb034c7d8bc37891889d364f222c9bf.png",
+        "price": "212",
+        "description": "鶏ガラが利いたすっきりとしながらも味わい深い醤油味にスープがひきたつ、つつるつるノンフライ細麺です。",
+        "genre": "0",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "ホットヌードルNEO　醤油",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/76850497950f293f09c7ff0885e0018e.png",
+        "price": "-1",
+        "description": "香ばしい風味のスナック麺と、野菜の甘味と醤油の旨味が利いたスープが癖になる醤油ヌードルです。",
+        "genre": "0",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "ごつ盛り　ソース焼きそば",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/36aeb0ad1e1b16e58b20c39880a3db75.png",
+        "price": "-1",
+        "description": "麺130g、旨みとコクのあるブレンドソースに「キユーピーからしマヨネーズ」が付いた大盛ソース焼そばです。",
+        "genre": "3",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "ごつ盛り　ワンタン醤油ラーメン",
+        "img": "https://www.maruchan.co.jp/products/upload/picture/eabb4a1e381b104d99f656f577621e38.png",
+        "price": "-1",
+        "description": "たまねぎの甘みを利かせた醤油スープに、肉入りワンタン・鶏挽肉・コーン・ねぎが入った大盛醤油ラーメンです。",
+        "genre": "0",
+        "hot": "0",
+        "status": "1"
+    },
+    {
+        "name": "やきそば弁当",
+        "img": "https://www.maruchan.co.jp/cupyakisoba/img/detail/yakiben_img01.jpg",
+        "price": "212",
+        "description": "くせがなく飽きない、ちょっと甘めのソース味焼そば。特製中華スープ付です。",
+        "genre": "3",
+        "hot": "0",
+        "status": "2"
+    },
+    {
+        "name": "焼そばバゴォーン",
+        "img": "https://www.maruchan.co.jp/cupyakisoba/img/detail/bagoooon_img01.jpg",
+        "price": "212",
+        "description": "ウスターと中濃を合わせたソースに、ザク切りキャベツとチキンダイス入りのソース焼そば。わかめスープ付です。",
+        "genre": "3",
+        "hot": "0",
+        "status": "2"
+    }
+
+]
