@@ -4,23 +4,10 @@
     例). header, footer
   -->
   <div>
-    <!--
-      各ページへのリンク
-      ※テスト用なので後で消す
-    -->
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-      <el-menu-item @click="$router.push('/')" index="1">Home</el-menu-item>
-      <el-menu-item @click="$router.push('/About')" index="2">About</el-menu-item>
-      <el-menu-item @click="$router.push('/Acecook')" index="3">Aceccok</el-menu-item>
-      <el-menu-item @click="$router.push('/Area')" index="4">Area</el-menu-item>
-      <el-menu-item @click="$router.push('/Conveni')" index="5">Coveni</el-menu-item>
-      <el-menu-item @click="$router.push('/Myojo')" index="6">Myojo</el-menu-item>
-      <el-menu-item @click="$router.push('/Nissin')" index="7">Nissin</el-menu-item>
-      <el-menu-item @click="$router.push('/Overseas')" index="8">Overseas</el-menu-item>
-      <el-menu-item @click="$router.push('/Sanyoo')" index="9">Sanyoo</el-menu-item>
-      <el-menu-item @click="$router.push('/Toyo')" index="10">Toyo</el-menu-item>
-    </el-menu>
-    <Nuxt />
+    <div class="header"></div>
+    <div class="main">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
@@ -28,13 +15,40 @@
   export default {
     data() {
       return {
-        activeIndex: '1',
+
       };
     },
     methods: {
-      handleSelect(key, keyPath) {
-        console.log(key, keyPath);
-      }
+      
     }
   }
 </script>
+
+<style>
+  body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    z-index: 1;
+  }
+
+  .header{
+    /*　↓　変更禁止*/
+    position: fixed;
+    height: 64px;
+    width: 100vw;
+    margin-top: 0px;
+    z-index: 99;
+    /*　↑　変更禁止*/
+
+    background-color: gray;
+  }
+</style>

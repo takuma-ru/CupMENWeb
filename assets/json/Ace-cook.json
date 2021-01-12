@@ -1,14 +1,5 @@
 　　[
     {
-        "name": "商品名 string",
-        "img": "写真",
-        "price": "価格 int (オープン価格などの場合: -1)",
-        "description": "特徴・説明 string(html)",
-        "genre": "ジャンル int [ラーメン: 0][うどん: 1][そば: 2][焼きそば: 3][その他: 4]",
-        "hot": "辛さ int 0 or 1 or 2(要検討)",
-        "status": "販売状況 int [販売中: 1][販売終了: 0][地域限定: 2][期間限定: 3]" 
-        },
-    {
         "name":"スーパーカップMAX　鶏ガラ醤油",
         "img":"http://www.acecook.co.jp/img_sys/product/1154_main.jpg",
         "price":"226",

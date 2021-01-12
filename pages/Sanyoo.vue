@@ -16,7 +16,6 @@
     <p v-if="item.genre == 3">焼きそば</p>
     <p v-if="item.genre == 4">その他</p>
 
-    <el-divider></el-divider>
   </div>
 </div>
 </template>

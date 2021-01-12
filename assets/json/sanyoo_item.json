@@ -1,25 +1,5 @@
 [
   {
-    "name": "商品名 string",
-    "img": "写真",
-    "price": "価格 int (オープン価格などの場合: -1)",
-    "description": "特徴・説明 string(html)",
-    "genre": "ジャンル int [ラーメン: 0][うどん: 1][そば: 2][焼きそば: 3][その他: 4]",
-    "hot": "辛さ int 0 or 1 or 2(要検討)",
-    "status": "販売状況 int [販売中: 1][販売終了: 0][地域限定: 2][期間限定: 3]",
-    "area": "地域 int [青森: 0][岩手: 1][秋田: 2][宮城: 3][山形: 4][福島: 5]",
-    "country": "国　int []"
-  },
-  {
-    "name": "",
-    "img": "",
-    "price": 0,
-    "description": "",
-    "genre": 0,
-    "hot": 0,
-    "status": 1 
-  },
-  {
     "name": "サッポロ一番　しょうゆ味どんぶり",
     "img": "https://www.sanyofoods.co.jp/wp-content/uploads/2019/02/1903soydon1D.jpg",
     "price": 208,
