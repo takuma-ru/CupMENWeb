@@ -6,5 +6,29 @@
   {
     "title": "東洋水産",
     "url": "/Toyo"
+  },
+  {
+    "title": "サンヨー食品",
+    "url": "/Sanyoo"
+  },
+  {
+    "title": "明星食品",
+    "url": "/Myojo"
+  },
+  {
+    "title": "エースコック",
+    "url": "/Acecook"
+  },
+  {
+    "title": "コンビニ限定",
+    "url": "/Conveni"
+  },
+  {
+    "title": "ご当地カップ麺",
+    "url": "/Area"
+  },
+  {
+    "title": "海外のカップ麺",
+    "url": "/Overseas"
   }
 ]
