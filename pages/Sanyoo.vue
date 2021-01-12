@@ -4,7 +4,10 @@
   <div v-for="(item, i) in $store.state.sanyoo" :key="i">
     <p>{{ item.name }}</p>
     <img :src="item.img" class="img" />
-    <p>価格: {{item.price}} 円</p>
+    
+    <p v-if="item.price < 0">オープン価格</p>
+    <p v-else>価格: {{item.price}} 円</p>
+    
     <p>{{item.description}}</p>
 
     <p v-if="item.genre == 0">ラーメン</p>
