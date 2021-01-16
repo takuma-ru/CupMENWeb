@@ -8,7 +8,7 @@
       class="link_history"
       :title="'カップ麺の歴史'"
       :img_src="'cupnoodle.jpg'"
-      :url="'/Nissin'"
+      :url="'/About'"
     />
 
     <div

@@ -37,7 +37,7 @@ export default {
 .block{
   position: relative;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   margin-bottom: 1vh;
   margin-left: 5px;
   margin-right: 5px;
@@ -50,7 +50,7 @@ export default {
 
 .back_img {
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   background: #000;
 }
 
@@ -80,7 +80,7 @@ export default {
   transform: translate(-50%, 0%);
   box-sizing: border-box;
   font-size: 3.5em;
-  line-height: 20vh;
+  line-height: 25vh;
   text-align: center;
 }
 </style>
