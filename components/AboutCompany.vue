@@ -33,16 +33,21 @@
 
 <script>
 export default {
-  
+  data(){
+    return{
+
+    }
+  }
 }
 </script>
 
 <style>
 .tag{
+  border: 1px solid;
   width: 15vw;
   height: 64px;
-
-  background-color: red;
+  background-color: #FFDC7B;
+  /*background-color: red;*/
 }
 
 .tag_text{
@@ -53,29 +58,32 @@ export default {
 
 .text{
   width: 100%;
-  min-height: 300px;
+  min-height: 400px;
 }
 
 .main_text{
+  border: 1px solid;
   position: absolute;
   width: 50%;
   height: 400px;
-  
-  background-color:blue;
+  color: black;
+  background-color: rgb(251, 255, 236);
 }
 
 .title{
   width: 25%;
-  /*font-size: 2.5em;*/
+  font-size: 1.5rem;
   line-height: 200px;
   text-align: center;
 }
 
 .main_text_text{
   position: absolute;
-  top: 16px;
+  top: 0;
   right: 0;
   width: 75%;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .about{
@@ -95,7 +103,7 @@ export default {
   min-height: 400px;
   right: 0;
 
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 </style>
