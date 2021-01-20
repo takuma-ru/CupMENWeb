@@ -1,7 +1,11 @@
 <template>
   <div class="article-normal">
     <div class="title">
-      <p>{{articleItem.name}}</p>
+      <p>
+        <span v-for="(item,i) in inhibitNewline" :key="i" class="ibnl">
+          {{item}}&ensp;
+        </span>
+      </p>
     </div>
     <div class="lower">
       <div class="image">
@@ -30,6 +34,12 @@ export default {
       else {
         return '￥' + value + '円(税込)'
       }
+    }
+  },
+  computed: {
+    inhibitNewline: function() {
+      let str = (this.articleItem.name).split(/\s|　/);
+      return str;
     }
   }
 }
@@ -73,5 +83,8 @@ img {
 }
 .price span {
   font-size: 1.3em;
+}
+.ibnl {
+  display: inline-block;
 }
 </style>
