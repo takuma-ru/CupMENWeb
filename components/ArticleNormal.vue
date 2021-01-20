@@ -1,6 +1,8 @@
 <template>
   <div class="article-normal">
-    <p class="title">{{articleItem.name}}</p>
+    <div class="title">
+      <p>{{articleItem.name}}</p>
+    </div>
     <div class="lower">
       <div class="image">
         <img :src="articleItem.img">
@@ -35,17 +37,19 @@ export default {
 
 <style scoped>
 .article-normal {
-	margin: 0px;
-  width: 48%;
+  width: 40%;
   min-width: 500px;
-  margin: 5px;
+  margin: 20px;
 }
 .title {
   margin: 0px;
-  text-align: center;
+  height: 76px;
   background-color: #ffeccc;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.title p {
+  text-align: center;
   font-size: 1.5em;
   color: #221000;
   font-family: serif;
