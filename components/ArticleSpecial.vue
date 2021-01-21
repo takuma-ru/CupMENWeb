@@ -65,9 +65,6 @@ export default {
     inhibitNewline: function() {
       let str = (this.articleItem.name).split(/\s|　/);
       return str;
-    },
-    background: function() {
-      return backgroundURL;
     }
   }
 }
@@ -83,6 +80,8 @@ export default {
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .title {
   margin: 0px;

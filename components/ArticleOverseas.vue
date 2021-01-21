@@ -1,5 +1,5 @@
 <template>
-  <div class="article-normal" :style="{ 'background-image': 'url(' + imageGenre[articleItem.genre] + ')' }">
+  <div class="article-overseas" :style="{ 'background-image': 'url(' + imageGenre[articleItem.genre] + ')' }">
     <div class="hot" v-if="articleItem.hot">
       <img src="../assets/img/components/Hot.svg">
     </div>
@@ -15,8 +15,8 @@
         <img :src="articleItem.img">
       </div>
       <div class="info">
-        <p class="price">希望小売価格 <span>{{articleItem.price | priceFormat}}</span></p>
-        <p class="description">{{articleItem.description}}</p>
+        <p class="price">希望小売価格 <span>{{priceFormat}}</span></p>
+        <p class="description">製造会社: {{articleItem.firm}}<br>{{articleItem.description}}</p>
       </div>
     </div>
   </div>
@@ -31,7 +31,7 @@ import ImageSonota from '@/assets/img/components/SonotaFrame.svg';
 export default {
   props: {
     articleItem: {
-			type: Object
+		type: Object
     }
   },
   data() {
@@ -43,27 +43,20 @@ export default {
       ImageSonota
     ]};
   },
-  filters: {
-    priceFormat: function (value) {
-      if (value == -1) {
-        return '(不明)';
-      }
-      else {
-        return '￥' + value + '円(税込)'
-      }
-    }
-  },
   computed: {
     inhibitNewline: function() {
       let str = (this.articleItem.name).split(/\s|　/);
       return str;
+    },
+    priceFormat: function() {
+      return this.articleItem.foreinprice + this.articleItem.currency + ' / ' + this.articleItem.yen + '円'
     }
   }
 }
 </script>
 
 <style scoped>
-.article-normal {
+.article-overseas {
   width: 450px;
   height: 300px;
   padding-left: 50px;
