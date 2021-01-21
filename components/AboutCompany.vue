@@ -2,20 +2,22 @@
   <div>
     <div class="tag">
       <div class="tag_text">
-        この企業について
+        <span style="margin-left: 8px; margin-right: 8px;">この企業について</span>
       </div>
     </div>
     <div class="text">
       <div class="main_text">
-        <div class="about">
+        <div class="item about">
           <div class="title">
             企業概要
           </div>
           <div class="main_text_text">
+            <p>
             asd
+            </p>
           </div>
         </div>
-        <div class="slogan">
+        <div class="item slogan">
           <div class="title">
             スローガン
           </div>
@@ -24,8 +26,11 @@
           </div>
         </div>
       </div>
-      <div class="sub_text">
-        sub
+        <div class="sub_container">
+          <div class="item sub_link"></div>
+          <div class="item sub_link"></div>
+          <div class="item sub_link"></div>
+          <div class="item sub_link"></div>
       </div>
     </div>
   </div>
@@ -44,8 +49,10 @@ export default {
 <style>
 .tag{
   border: 1px solid;
-  width: 15vw;
+  width: fit-content;
   height: 64px;
+  /*border-radius: 5px;*/
+  margin-bottom: 4px;
   background-color: #FFDC7B;
   /*background-color: red;*/
 }
@@ -57,22 +64,27 @@ export default {
 }
 
 .text{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   min-height: 400px;
 }
 
 .main_text{
   border: 1px solid;
-  position: absolute;
-  width: 50%;
+  /*border-radius: 5px;*/
+  position: relative;
+  width: 48%;
   height: 400px;
   color: black;
+  word-wrap: normal;
   background-color: rgb(251, 255, 236);
 }
 
 .title{
   width: 25%;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   line-height: 200px;
   text-align: center;
 }
@@ -82,8 +94,7 @@ export default {
   top: 0;
   right: 0;
   width: 75%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-right: 8px;
 }
 
 .about{
@@ -97,13 +108,35 @@ export default {
   height: 50%;
 }
 
-.sub_text{
-  position: absolute;
-  width: 50%;
+.sub_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
   min-height: 400px;
-  right: 0;
+}
 
+.sub_link{
+  width: 20vw;
+  height: 15vh;
+  margin: 8px;
+  cursor: pointer;
+
+  background-color: grey;
+}
+
+.sub_text{
+  margin: 8px;
   /*background-color: yellow;*/
 }
 
+@media screen and (max-width: 960px) {
+  .main_text{
+    width: 100%;
+  }
+  .sub_text{
+    width: 100%;
+  }
+}
 </style>

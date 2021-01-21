@@ -56,6 +56,7 @@ export default {
 
 .block:hover{
   color: black;
+  box-shadow: 10px 10px 15px -10px;
   transition-duration: 0.5s;
 }
 

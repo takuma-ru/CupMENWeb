@@ -76,7 +76,7 @@ export default {
   width: 70vw;
 }
 
-@media screen and (max-width: 960px) { 
+@media screen and (max-width: 960px) {
   .link{
     width: 100%;
   }
