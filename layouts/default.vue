@@ -30,6 +30,8 @@
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+
+    background-image: url("../assets/img/background.svg");
   }
 
   .main{
