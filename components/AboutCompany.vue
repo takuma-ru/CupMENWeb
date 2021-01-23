@@ -12,9 +12,7 @@
             企業概要
           </div>
           <div class="main_text_text">
-            <p>
-            asd
-            </p>
+            <p>{{about}}</p>
           </div>
         </div>
         <div class="item slogan">
@@ -22,15 +20,25 @@
             スローガン
           </div>
           <div class="main_text_text">
-            asd
+            <p>{{slogan}}</p>
           </div>
         </div>
       </div>
-        <div class="sub_container">
-          <div class="item sub_link"></div>
-          <div class="item sub_link"></div>
-          <div class="item sub_link"></div>
-          <div class="item sub_link"></div>
+      <div class="sub_text">
+        <div class="item brand">
+          <div class="sub_title">
+            ブランド一覧
+          </div>
+          <div class="sub_text_text">
+            <p>
+              <ul>
+                <li v-for="(item, i) in brand" :key="i">
+                  {{item}}
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -40,9 +48,15 @@
 export default {
   data(){
     return{
-
+      
     }
-  }
+  },
+
+  props: [
+    'about',
+    'slogan',
+    'brand'
+  ],
 }
 </script>
 
@@ -67,6 +81,7 @@ export default {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   min-height: 400px;
 }
@@ -75,7 +90,7 @@ export default {
   border: 1px solid;
   /*border-radius: 5px;*/
   position: relative;
-  width: 48%;
+  width: 49%;
   height: 400px;
   color: black;
   word-wrap: normal;
@@ -113,29 +128,57 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 48%;
+  align-content: center;
+  width: 50%;
   min-height: 400px;
 }
 
-.sub_link{
-  width: 20vw;
-  height: 15vh;
-  margin: 8px;
-  cursor: pointer;
-
-  background-color: grey;
-}
-
 .sub_text{
-  margin: 8px;
-  /*background-color: yellow;*/
+  border: 1px solid;
+  /*border-radius: 5px;*/
+  position: relative;
+  right: 0;
+  width: 49%;
+  height: 400px;
+  color: black;
+  word-wrap: normal;
+  background-color: rgb(251, 255, 236);
 }
+
+.brand{
+  width: 100%;
+  height: 100%;
+}
+
+.sub_title{
+  width: 25%;
+  font-size: 1.5vw;
+  line-height: 400px;
+  text-align: center;
+}
+
+.sub_text_text{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  margin-right: 8px;
+}
+
 
 @media screen and (max-width: 960px) {
+  .tag{
+    margin: 8px;
+  }
   .main_text{
     width: 100%;
+    margin: 8px;
   }
   .sub_text{
+    width: 100%;
+    margin: 8px;
+  }
+  .sub_container{
     width: 100%;
   }
 }
