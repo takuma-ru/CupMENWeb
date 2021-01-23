@@ -11,8 +11,10 @@ state = () => ({
 
 import sanyoo from '../assets/json/sanyoo_item.json'
 import toplink from '../assets/json/top_link.json'
+import area from '../assets/json/Area_item.json'
 
 export const state = () => ({
   sanyoo,
-  toplink
+  toplink,
+  area
 })
