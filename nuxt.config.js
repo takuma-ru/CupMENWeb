@@ -6,7 +6,7 @@ module.exports = {
   target: 'static',
   
   head: {
-    titleTemplate: 'CupMEN-Web',
+    titleTemplate: 'カップ麺サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -59,7 +59,7 @@ module.exports = {
       collapseWhitespace: true,
       decodeEntities: true,
       minifyCSS: false,
-      minifyJS: true,
+      minifyJS: false,
       processConditionalComments: true,
       removeAttributeQuotes: false,
       removeComments: false,
