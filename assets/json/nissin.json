@@ -1,7 +1,7 @@
 [
     {
         "name": "カップヌードル",
-        "img": "https://cdn.nissin.com/image?id=9735&s=720",
+        "img": "nissin/one.png",
         "price": 212,
         "description": "世界初のカップ麺です。独特のつるみのあるめんに、おなじみのオリジナルスープ、具材は味付豚ミンチ、ミンチポーク、エビ、スクランブルエッグ、ねぎです。",
         "genre": 0,
@@ -10,7 +10,7 @@
     },
     {
         "name": "カップヌードル シーフードヌードル",
-        "img": "https://cdn.nissin.com/image?id=10179&s=720",
+        "img": "nissin/two.png",
         "price": 212,
         "description": "”ほぼイカ”と呼ばれるシーフードのスープに合わせて開発した特製カマボコ具材は、海鮮のうまみをぎゅっと詰め込み、まるでイカのような食感と味わいです。",
         "genre": 0,
@@ -19,7 +19,7 @@
     },
     {
         "name": "カップヌードル カレー",
-        "img": "https://cdn.nissin.com/image?id=8648&s=720",
+        "img": "nissin/three.png",
         "price": 212,
         "description": "コシのある麺に、野菜の甘味のあるマイルドでとろみのあるカレースープ、具材はポテト、ダイスポーク、ミンチポーク、にんじん、ねぎです。",
         "genre": 0,
@@ -28,7 +28,7 @@
     },
     {
         "name": "カップヌードル ぶっこみ飯",
-        "img": "https://cdn.nissin.com/image?id=9262&s=720",
+        "img": "nissin/four.png",
         "price": 253,
         "description": "カップヌードルを食べた後のスープにご飯をぶっこんだ「あの味」を再現したものです。カップヌードルのスープをベースにフライ麺の香ばしい風味を加えた一品です。",
         "genre": 0,
@@ -37,7 +37,7 @@
     },
     {
         "name": "カップヌードル チリトマトヌードル",
-        "img": "https://cdn.nissin.com/image?id=8448&s=720",
+        "img": "nissin/five.png",
         "price": 212,
         "description": "ピリッとしたチリの辛さに、トマトの甘みと酸味がマッチしたスープ、具材はトマトキューブ、コーン、キャベツ、いんげんに加え、鶏肉由来の「白い謎肉」を使用しています。",
         "genre": 0,
@@ -46,7 +46,7 @@
     },
     {
         "name": "カップヌードル 味噌",
-        "img": "https://cdn.nissin.com/image?id=9248&s=720",
+        "img": "nissin/six.png",
         "price": 212,
         "description": "甘みのある麦味噌ベースに、赤白の3種の味噌を合わせた濃厚な味噌スープが特長で、ご飯に合うカップヌードルNo.1です。",
         "genre": 0,
@@ -55,7 +55,7 @@
     },
     {
         "name": "おだしがおいしいカップヌードル 肉だしうどん",
-        "img": "https://cdn.nissin.com/image?id=9128&s=720",
+        "img": "nissin/seven.png",
         "price": 138,
         "description": "カップヌードルならではのキューブ状の味付け豚ミンチを使用した豚と鰹のＷだしをきかせた甘いつゆがおいしい肉だしうどんです。",
         "genre": 1,
@@ -64,7 +64,7 @@
     },
     {
         "name": "おだしがおいしいカップヌードル 鶏南蛮そば",
-        "img": "https://cdn.nissin.com/image?id=9807&s=720",
+        "img": "nissin/eight.png",
         "price": 138,
         "description": "鶏と鰹のＷだしのスッキリとしたつゆがおいしい鶏南蛮そばです。具材はカップヌードルらしくキューブ状の味付け鶏ミンチ、たまご、ネギです。",
         "genre": 2,
@@ -73,7 +73,7 @@
     },
     {
         "name": "カップヌードル パクチー香るトムヤムクン",
-        "img": "https://cdn.nissin.com/image?id=10072&s=720",
+        "img": "nissin/nine.png",
         "price": 212,
         "description": "世界各国で親しまれている料理を「カップヌードル」で再現したものです。トムヤンクン独特の”すっぱ辛い”味が良く再現されています。",
         "genre": 0,
@@ -82,7 +82,7 @@
     },
     {
         "name": "カップヌードル ピリッと生姜のグリーンカレー",
-        "img": "https://cdn.nissin.com/image?id=10073&s=720",
+        "img": "nissin/ten.png",
         "price": 212,
         "description": "世界各国で親しまれている料理を「カップヌードル」で再現。クリーミーなココナッツミルクに生姜と青唐辛子が刺激的な、タイ料理の定番グリーンカレーです。",
         "genre": 0,
