@@ -16,8 +16,9 @@ export default {
   data(){
     return{
       about: "概要",
-      slogan: "スローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガンスローガン",
-      brand: ['a', 's', 'd']
+      slogan: "スローガン",
+      brand: ['a', 's', 'd'],
+      Source: "https://www.sanyofoods.co.jp"
     }
   },
   components: {
