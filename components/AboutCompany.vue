@@ -11,16 +11,14 @@
           <div class="about_title">
             企業概要
           </div>
-          <div class="main_text_text">
-            {{about}}
+          <div class="main_text_text" v-html="about">
           </div>
         </div>
         <div class="item slogan">
           <div class="about_title">
             スローガン
           </div>
-          <div class="main_text_text">
-            {{slogan}}
+          <div class="main_text_text" v-html="slogan">
           </div>
         </div>
       </div>

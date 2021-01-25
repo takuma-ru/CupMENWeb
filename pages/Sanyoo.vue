@@ -26,9 +26,9 @@ import Article from '../components/ArticleNormal'
 export default {
   data(){
     return{
-      about: "概要",
-      slogan: "スローガン",
-      brand: ['a', 's', 'd'],
+      about: "<ul><li>名称: サンヨー食品株式会社</li><li>創業: 1953年11月</li><li>資本金: 5億円</li><li>従業員数: 6983人(2019/3現在)</li></ul>",
+      slogan: "良い味の創造<br>迅速なる行動、熱心な取組",
+      brand: ['サッポロ一番　袋麺', 'サッポロ一番　どんぶり', 'カップスター', '和ラー', 'ポケモンヌードル', '名店の味', '旅麺', '焼きそば'],
       source: "https://www.sanyofoods.co.jp"
     }
   },
