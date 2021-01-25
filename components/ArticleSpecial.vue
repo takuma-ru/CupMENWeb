@@ -4,7 +4,6 @@
       <div class="entire" :style="{ 'background': 'url(' + imageGenreDesctop[articleItem.genre] + ') no-repeat center', 'background-size': 'contain', 'background-position': 'center'}">
         <div class="formargin">
           <div class="productName">
-            <div class="status">{{viewStatus[articleItem.status]}}</div>
             <p>
               <span v-for="(item,i) in inhibitNewline" :key="i" class="ibnl">
                 {{item}}&ensp;
@@ -18,6 +17,7 @@
             <div class="info">
               <p class="price">希望小売価格 <span>{{articleItem.price | priceFormat}}</span></p>
               <p class="description">{{articleItem.description}}</p>
+              <div class="status">{{viewStatus[articleItem.status]}}</div>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default {
   .status {
     display: inline-block;
     position: absolute;
-    top: 33%;
+    top: 1em;
     right: 0px;
     background-color: orange;
     padding: 5px;
@@ -296,6 +296,7 @@ export default {
     margin-left: 0px;
   }
   .info {
+    position: relative;
     float: right;
     width: 70%;
     height: 100%;
