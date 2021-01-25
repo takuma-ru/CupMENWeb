@@ -117,7 +117,7 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 500px) {
   .article-special {
     width: 100%;
   }
@@ -221,7 +221,7 @@ export default {
     box-shadow: none;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 500px) {
   .article-special {
     width: 46%;
     margin-left: 1.2%;
