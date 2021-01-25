@@ -42,11 +42,11 @@
               <div class="hot" v-if="articleItem.hot">
                 <img src="../assets/img/components/Hot.svg">
               </div>
-              <div class="status">{{viewStatus[articleItem.status]}}</div>
             </div>
             <div class="info">
               <p class="price">希望小売価格 <span>{{articleItem.price | priceFormat}}</span></p>
               <p class="description">{{articleItem.description}}</p>
+              <div class="status">{{viewStatus[articleItem.status]}}</div>
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 500px) {
   .article-special {
     width: 100%;
   }
@@ -150,7 +150,7 @@ export default {
     font-size: 100%;
     display: inline-block;
     position: absolute;
-    bottom: 5%;
+    top: 0px;
     right: 0px;
     background-color: orange;
     padding: 5px;
@@ -192,6 +192,7 @@ export default {
     display: inline-block;
   }
   .info {
+    position: relative;
     width: 100%;
     height: 100%;
   }
@@ -221,7 +222,7 @@ export default {
     box-shadow: none;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 500px) {
   .article-special {
     width: 46%;
     margin-left: 1.2%;
