@@ -1,7 +1,7 @@
 　　[
     {
         "name":"スーパーカップMAX　鶏ガラ醤油",
-        "img":"http://www.acecook.co.jp/img_sys/product/1154_main.jpg",
+        "img":"acecook/one.jpg",
         "price":"226",
         "description":"チキンをベースに、オニオンやガーリック、ペッパーを加えた、コクがありつつもすっきりとした醤油スープです。食べごたえのある豚バラ焼豚、コーン、ねぎ、メンマが入っています。",
         "genre":"0",
@@ -10,7 +10,7 @@
     },
     {
         "name":"スーパーカップMAX 濃コクとんこつ",
-        "img":"http://www.acecook.co.jp/img_sys/product/1156_main.jpg",
+        "img":"acecook/two.jpg",
         "price":"226",
         "description":"数種のポークエキスを使用し、まろやかに仕上げた豚骨スープです。ガーリックがアクセントになっていて後を引くおいしさになっています。",
         "genre":"0",
@@ -19,7 +19,7 @@
     },
     {
         "name":"タテロング　わかめラーメン　しじみだし・しょうゆ",
-        "img":"http://www.acecook.co.jp/img_sys/product/1194_main.jpg",
+        "img":"acecook/three.jpg",
         "price":"237",
         "description":"醤油をベースにしじみの旨みや魚醤のコクをバランスよく配合することで、風味豊かな味わいに仕上げたラーメンスープです。アクセントにジンジャーや白コショウを利かせ、最後まで飽きのこない味になっています。",
         "genre":"0",
@@ -28,7 +28,7 @@
     },
     {
         "name":"スーパーカップ１．５倍　ドサッと野菜鍋風　とんこつしょうゆ味ラーメン",
-        "img":"http://www.acecook.co.jp/img_sys/product/1189_main.jpg",
+        "img":"acecook/four.jpg",
         "price":"226",
         "description":"ポークをベースに野菜の旨みを利かせたとんこつしょうゆスープです。適度に利かせたガーリックやペッパーで、最後まで食べ飽きない一杯です。",
         "genre":"0",
@@ -37,7 +37,7 @@
     },
     {
         "name":"タテ型　飲み干す一杯　ＷＨＩＴＥ　塩バター味ラーメン",
-        "img":"http://www.acecook.co.jp/img_sys/product/1184_main.jpg",
+        "img":"acecook/five.jpg",
         "price":"208",
         "description":"ポークとガーリックを利かせた塩スープに、後入れのバター状ブロックでクリーミーな味わいです。",
         "genre":"0",
@@ -46,7 +46,7 @@
     },
     {
         "name":"ラーメンモッチッチ　炒め野菜香るみそ",
-        "img":"http://www.acecook.co.jp/img_sys/product/1175_main.jpg",
+        "img":"acecook/six.jpg",
         "price":"208",
         "description":"もちもちとした食感が特長の「もちもち真空仕立て麺」です。国産黒豚だしの旨みに、ガーリックやジンジャー等の香味野菜の旨みを加えた味噌スープです。",
         "genre":"0",
@@ -55,7 +55,7 @@
     },
     {
         "name":"タテ型　飲み干す一杯　ＢＬＡＣＫ　黒ごま担担麺",
-        "img":"http://www.acecook.co.jp/img_sys/product/1183_main.jpg",
+        "img":"acecook/seven.jpg",
         "price":"208",
         "description":"ポークの旨み、味噌のコクを利かせたスープに、黒ごまの風味と花椒の刺激で、食欲をそそる味わいになっています。",
         "genre":"4",
@@ -64,7 +64,7 @@
     },
     {
         "name":"ヌードルはるさめ　１／３日分の野菜　うま辛チゲ",
-        "img":"http://www.acecook.co.jp/img_sys/product/1166_main.jpg",
+        "img":"acecook/eight.jpg",
         "price":"199",
         "description":"チキンとポークをベースに、アンチョビ、ホタテ等の魚介の旨みを加えたコクのあるチゲスープです。程良い辛さとコクのあるスープに、ガーリック等の香辛料をアクセントになっています。",
         "genre":"4",
@@ -73,7 +73,7 @@
     },
     {
         "name":"焼そばモッチッチ",
-        "img":"http://www.acecook.co.jp/img_sys/product/1102_main.jpg",
+        "img":"acecook/nine.jpg",
         "price":"208",
         "description":"まるで家庭で調理した焼そばのような食感が特長の「もちもち真空仕立て麺」です。野菜と果実の甘みがある、国産鰹だしの旨みを利かせた特製ソースです。",
         "genre":"3",
@@ -82,7 +82,7 @@
     },
     {
         "name":"スーパーカップＭＡＸ大盛り　太麺辛だれ油そば",
-        "img":"http://www.acecook.co.jp/img_sys/product/1084_main.jpg",
+        "img":"acecook/ten.jpg",
         "price":"226",
         "description":"ポークエキス、ガーリックを加えた濃厚な醤油だれです。MAX辛節ふりかけを入れることで最後まで食べ飽きない味わいになっています。",
         "genre":"3",
