@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="top_title top_font">ご当地カップ麺</div>
     <div class="touhoku_container">
       <img class="item touhoku" src="../assets/img/area/touhoku.svg">
     </div>
@@ -34,9 +35,23 @@ export default {
 .items{
   margin-top: 24px;
 }
+.top_title{
+  text-align: center;
+}
 .wrap{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (min-width: 300px) {
+  .top_font {
+    font-size: calc(2.25rem + ((1vw - 3px) * 3.0864));
+  }
+}
+@media (min-width: 1920px) {
+  .top_font {
+    font-size: 86px;
+  }
 }
 </style>
