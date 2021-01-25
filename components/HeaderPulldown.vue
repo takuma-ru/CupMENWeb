@@ -59,6 +59,9 @@ export default {
   align-items: center;
   height: 100%;
   width: 100%;
+  font-size: 1.1em;
+  color: white;
+  font-weight: bold;
 }
 .image_pulldown {
   float: left;
