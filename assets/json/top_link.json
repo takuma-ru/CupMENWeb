@@ -2,41 +2,49 @@
   {
     "title": "日清食品",
     "img": "cupnoodle.jpg",
-    "url": "/Nissin"
+    "url": "/Nissin",
+    "source": "https://www.nissin.com/jp/products/images/brand/pc_banner/cupnoodle.jpg"
   },
   {
     "title": "東洋水産",
-    "img": "cupnoodle.jpg",
-    "url": "/Toyo"
+    "img": "18h_prbg001.jpg",
+    "url": "/Toyo",
+    "source": "https://www.maruchan.co.jp/products/images/18h_prbg001.jpg"
   },
   {
     "title": "サンヨー食品",
-    "img": "cupnoodle.jpg",
-    "url": "/Sanyoo"
+    "img": "about_ttl_sp.jpg",
+    "url": "/Sanyoo",
+    "source": "https://www.sanyofoods.co.jp/company/about/"
   },
   {
     "title": "明星食品",
-    "img": "cupnoodle.jpg",
-    "url": "/Myojo"
+    "img": "banner-pc.png",
+    "url": "/Myojo",
+    "source": "https://www.myojofoods.co.jp/products/brands/charumera/images/banner-pc.png"
   },
   {
     "title": "エースコック",
-    "img": "cupnoodle.jpg",
-    "url": "/Acecook"
+    "img": "mv03.jpg",
+    "url": "/Acecook",
+    "source": "https://www.acecook.co.jp/img/top_renew02/mv03.jpg"
   },
   {
     "title": "コンビニ限定",
-    "img": "cupnoodle.jpg",
-    "url": "/Conveni"
+    "img": "09c851fdb12bfefcb409ce85849553ac_w.jpeg",
+    "url": "/Conveni",
+    "source": "https://www.photo-ac.com/main/detail/4111274?title=%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%80%80%E5%A4%96%E8%A6%B3&searchId=854316572"
   },
   {
     "title": "ご当地カップ麺",
-    "img": "cupnoodle.jpg",
-    "url": "/Area"
+    "img": "49ecc2cf05109490dd4161da2c806062_w.jpeg",
+    "url": "/Area",
+    "source": "https://www.ac-illust.com/main/detail.php?id=1135236&word=%E6%9D%B1%E5%8C%97%E5%9C%B0%E6%96%B9%E5%9C%B0%E5%9B%B3&searchId=2279638991"
   },
   {
     "title": "海外のカップ麺",
-    "img": "cupnoodle.jpg",
-    "url": "/Overseas"
+    "img": "world-map-1748403_1280.png",
+    "url": "/Overseas",
+    "source": "https://pixabay.com/ja/vectors/%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%B3-%E5%9B%BD-%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB-%E5%9C%B0%E7%90%83-1748403/"
   }
 ]

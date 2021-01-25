@@ -6,7 +6,8 @@
         v-bind:src="src"
       />
     </div>
-    <div class="title">{{title}}</div>
+    <div class="home_title">{{title}}</div>
+    <div class="top_source">出典:{{source}}</div>
   </div>
 </template>
 
@@ -14,14 +15,15 @@
 export default {
   data(){
     return{
-      src: require("../assets/img/" + this.img_src)
+      src: require("../assets/img/top/" + this.img_src)
     }
   },
 
   props: [
     'title',
     'img_src',
-    'url'
+    'url',
+    'source'
   ],
 
   methods: {
@@ -42,14 +44,14 @@ export default {
   color: white;
   overflow: hidden;
   cursor: pointer;
-  background-color: grey;
+  background-color: white;
   transition-duration: 0.5s;
 }
 
 .back_img {
   width: 100%;
   height: 25vh;
-  background: #000;
+  background-color: #000;
 }
 
 .block:hover{
@@ -66,18 +68,39 @@ export default {
 }
 
 .block:hover .front_img {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition-duration: 0.25s;
 }
 
-.title{
+.home_title{
   position: absolute;
   top: 0%;
   left: 50%;
   transform: translate(-50%, 0%);
   box-sizing: border-box;
   font-size: 3.5em;
+  white-space: nowrap;
   line-height: 25vh;
   text-align: center;
+}
+
+.top_source{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 8px;
+  font-size: 4px;
+  color: grey;
+}
+
+@media (min-width: 300px) {
+  .home_title {
+    font-size: calc(2.25rem + ((1vw - 3px) * 1.2346));
+  }
+}
+@media (min-width: 1920px) {
+  .home_title {
+    font-size: 56px;
+  }
 }
 </style>
