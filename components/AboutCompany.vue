@@ -2,25 +2,25 @@
   <div>
     <div class="tag">
       <div class="tag_text">
-        <span style="margin-left: 8px; margin-right: 8px;">この企業について</span>
+        <span style="">この企業について</span>
       </div>
     </div>
     <div class="text">
       <div class="main_text">
         <div class="item about">
-          <div class="title">
+          <div class="about_title">
             企業概要
           </div>
           <div class="main_text_text">
-            <p>{{about}}</p>
+            {{about}}
           </div>
         </div>
         <div class="item slogan">
-          <div class="title">
+          <div class="about_title">
             スローガン
           </div>
           <div class="main_text_text">
-            <p>{{slogan}}</p>
+            {{slogan}}
           </div>
         </div>
       </div>
@@ -64,17 +64,21 @@ export default {
 .tag{
   border: 1px solid;
   width: fit-content;
-  height: 64px;
-  /*border-radius: 5px;*/
-  margin-bottom: 4px;
+  width: fit-content;
+  border-radius: 8px;
+  margin-bottom: 8px;
   background-color: #FFDC7B;
   /*background-color: red;*/
 }
 
 .tag_text{
   text-align: center;
-  line-height: 64px;
-  font-size: 2em;
+  line-height: 4vh;
+  font-size: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .text{
@@ -88,7 +92,7 @@ export default {
 
 .main_text{
   border: 1px solid;
-  /*border-radius: 5px;*/
+  border-radius: 8px;
   position: relative;
   width: 49%;
   height: 400px;
@@ -97,19 +101,14 @@ export default {
   background-color: rgb(251, 255, 236);
 }
 
-.title{
-  width: 25%;
-  font-size: 1.5vw;
-  line-height: 200px;
-  text-align: center;
+.about_title{
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .main_text_text{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 75%;
-  margin-right: 8px;
+  margin: 16px;
 }
 
 .about{
@@ -135,7 +134,7 @@ export default {
 
 .sub_text{
   border: 1px solid;
-  /*border-radius: 5px;*/
+  border-radius: 8px;
   position: relative;
   right: 0;
   width: 49%;
@@ -151,22 +150,17 @@ export default {
 }
 
 .sub_title{
-  width: 25%;
-  font-size: 1.5vw;
-  line-height: 400px;
-  text-align: center;
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .sub_text_text{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 75%;
-  margin-right: 8px;
+  margin: 16px;
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 500px) {
   .tag{
     margin: 8px;
   }
@@ -180,6 +174,29 @@ export default {
   }
   .sub_container{
     width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .main_text_text {
+    font-size: calc(0.625rem + ((1vw - 3px) * 0.3704));
+  }
+  .about_title {
+    font-size: calc(1.5rem + ((1vw - 3px) * 0.7407));
+  }
+  .sub_title {
+    font-size: calc(1.5rem + ((1vw - 3px) * 0.7407));
+  }
+}
+@media (min-width: 1920px) {
+  .main_text_text {
+    font-size: 16px;
+  }
+  .about_title {
+    font-size: 36px;
+  }
+  .sub_title {
+    font-size: 36px;
   }
 }
 </style>

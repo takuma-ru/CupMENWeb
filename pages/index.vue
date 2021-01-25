@@ -11,23 +11,21 @@
       :url="'/About'"
     />
 
-    <div
-      v-for="(item, i) in $store.state.toplink"
-      :key="i"
-    >
-      <comlink
-        class="link"
-        :title="item.title"
-        :img_src="item.img"
-        :url="item.url"
-      />
+    <div class="links_wrapper">
+      <span
+        v-for="(item, i) in $store.state.toplink"
+        :key="i"
+      >
+        <comlink
+          
+          :title="item.title"
+          :img_src="item.img"
+          :url="item.url"
+        />
+      </span>
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>
 
 <script>
 import comlink from '../components/Top_CompanyLink'
@@ -48,14 +46,22 @@ export default {
 <style>
 .index_container{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+}
+
+.links_wrapper{
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, calc(50% - 8px));
+  grid-column-gap: 8px;
 }
 
 .top{
   position: relative;
-  width: 99%;
+  width: 100%;
   height: 40vh;
   margin-bottom: 2vh;
   background-color: rgb(175, 175, 175);
@@ -68,12 +74,8 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-.link{
-  width: 48vw;
-}
-
 .link_history{
-  width: 70vw;
+  width: 100%;
 }
 
 @media screen and (max-width: 960px) {
