@@ -42,7 +42,7 @@
     margin-top: calc(64px + 1vh);
     margin-left: 1vw;
     margin-right: 1vw;
-    width: 98vw;
+    width: 98%;
     min-height: calc(100vh - (64px + 1vh));
     z-index: 1;
   }
