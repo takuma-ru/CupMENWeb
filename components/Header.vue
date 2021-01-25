@@ -19,7 +19,7 @@ export default {
       item: [
         {
           header_name: 'トップページ',
-          src: '/index'
+          src: '/'
         },
         {
           header_name: 'カップ麺の歴史',

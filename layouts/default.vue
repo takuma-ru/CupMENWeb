@@ -61,7 +61,5 @@ export default {
     margin-top: 0px;
     z-index: 99;
     /*　↑　変更禁止*/
-
-    background-color: gray;
   }
 </style>

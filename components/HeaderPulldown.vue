@@ -50,6 +50,7 @@ export default {
   min-width: 120px;
   margin: 0px 10px;
   height: 80%;
+  cursor: pointer;
 }
 .entire {
   background-color: orange;

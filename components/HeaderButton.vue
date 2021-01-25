@@ -43,6 +43,7 @@ export default {
   width: 15%;
   margin: 0px 0.2%;
   height: 80%;
+  cursor: pointer;
 }
 .entire {
   background-color: orange;
