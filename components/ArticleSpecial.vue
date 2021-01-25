@@ -42,11 +42,11 @@
               <div class="hot" v-if="articleItem.hot">
                 <img src="../assets/img/components/Hot.svg">
               </div>
-              <div class="status">{{viewStatus[articleItem.status]}}</div>
             </div>
             <div class="info">
               <p class="price">希望小売価格 <span>{{articleItem.price | priceFormat}}</span></p>
               <p class="description">{{articleItem.description}}</p>
+              <div class="status">{{viewStatus[articleItem.status]}}</div>
             </div>
           </div>
         </div>
@@ -192,6 +192,7 @@ export default {
     display: inline-block;
   }
   .info {
+    position: relative;
     width: 100%;
     height: 100%;
   }
