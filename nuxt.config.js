@@ -59,7 +59,7 @@ module.exports = {
       collapseWhitespace: true,
       decodeEntities: true,
       minifyCSS: false,
-      minifyJS: false,
+      minifyJS: true,
       processConditionalComments: true,
       removeAttributeQuotes: false,
       removeComments: false,

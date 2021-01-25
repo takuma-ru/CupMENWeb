@@ -2,8 +2,12 @@
   <div>
     <div class="top_title top_font">サンヨー食品</div>
     <Top :about="about" :slogan="slogan" :brand="brand"></Top>
-    <div class="items">
-      <!--<Article class="item" v-for="(item, i) in $store.state.sanyoo" :key="i" :articleItem="item"></Article>-->
+    <div class="items wrap">
+      <Article class="item" v-for="(item, i) in $store.state.sanyoo" :key="i" :articleItem="item"></Article>
+    </div>
+    <div class="source">
+      出典:
+      {{source}}
     </div>
   </div>
 </template>
@@ -18,7 +22,7 @@ export default {
       about: "概要",
       slogan: "スローガン",
       brand: ['a', 's', 'd'],
-      Source: "https://www.sanyofoods.co.jp"
+      source: "https://www.sanyofoods.co.jp"
     }
   },
   components: {
@@ -34,6 +38,11 @@ export default {
 }
 .top_title{
   text-align: center;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 300px) {
