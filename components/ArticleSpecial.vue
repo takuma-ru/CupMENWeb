@@ -150,7 +150,7 @@ export default {
     font-size: 100%;
     display: inline-block;
     position: absolute;
-    bottom: 5%;
+    top: 0px;
     right: 0px;
     background-color: orange;
     padding: 5px;
