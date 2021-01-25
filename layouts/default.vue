@@ -4,7 +4,9 @@
     例). header, footer
   -->
   <div>
-    <div class="header"></div>
+    <div class="header">
+      <Header></Header>
+    </div>
     <div class="main">
       <Nuxt />
     </div>
@@ -12,16 +14,20 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-
-      };
-    },
-    methods: {
+import Header from '../components/Header';
+export default {
+  data() {
+    return {
       
-    }
+    };
+  },
+  components: {
+    Header
+  },
+  methods: {
+    
   }
+}
 </script>
 
 <style>
