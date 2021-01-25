@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="916" height="416" viewBox="0 0 916 416">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="911" height="416" viewBox="5 0 911 416">
   <defs>
     <clipPath id="clip-ラーメン枠">
       <rect width="916" height="416"/>
     </clipPath>
   </defs>
+  <rect x="30" y="30" width="870" height="370" fill="#ffffff" />
   <g id="ラーメン枠" clip-path="url(#clip-ラーメン枠)">
     <g id="グループ_210" data-name="グループ 210" transform="translate(-54.309 -1030.881)">
       <g id="グループ_207" data-name="グループ 207" transform="translate(967 1046.975) rotate(90)">
