@@ -39,8 +39,6 @@ export default {
   width: 100%;
   height: 25vh;
   margin-bottom: 1vh;
-  margin-left: 5px;
-  margin-right: 5px;
   color: white;
   overflow: hidden;
   cursor: pointer;
@@ -55,7 +53,6 @@ export default {
 }
 
 .block:hover{
-  color: black;
   box-shadow: 10px 10px 15px -10px;
   transition-duration: 0.5s;
 }
@@ -64,13 +61,12 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: opacity(0.3) grayscale(100%);
+  filter: opacity(0.3) grayscale(50%);
   transition-duration: 0.5s;
 }
 
 .block:hover .front_img {
   transform: scale(1.05);
-  filter: opacity(1) grayscale(0%);
   transition-duration: 0.25s;
 }
 

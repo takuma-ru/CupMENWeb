@@ -2,7 +2,7 @@
   <div>
     <div class="tag">
       <div class="tag_text">
-        <span style="margin-left: 8px; margin-right: 8px;">この企業について</span>
+        <span style="">この企業について</span>
       </div>
     </div>
     <div class="text">
@@ -64,17 +64,21 @@ export default {
 .tag{
   border: 1px solid;
   width: fit-content;
-  height: 64px;
+  width: fit-content;
   border-radius: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   background-color: #FFDC7B;
   /*background-color: red;*/
 }
 
 .tag_text{
   text-align: center;
-  line-height: 64px;
-  font-size: 2em;
+  line-height: 4vh;
+  font-size: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .text{
@@ -156,7 +160,7 @@ export default {
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 500px) {
   .tag{
     margin: 8px;
   }

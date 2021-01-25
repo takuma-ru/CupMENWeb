@@ -2,8 +2,15 @@
   <div>
     <div class="top_title top_font">サンヨー食品</div>
     <Top :about="about" :slogan="slogan" :brand="brand"></Top>
-    <div class="items wrap">
+    <div class="items">
+    <div class="tag">
+      <div class="tag_text">
+        <span style="margin-left: 1vw; margin-right: 1vw;">商品紹介</span>
+      </div>
+    </div>
+    <div class="wrap">
       <Article class="item" v-for="(item, i) in $store.state.sanyoo" :key="i" :articleItem="item"></Article>
+    </div>
     </div>
     <div class="source">
       出典:
@@ -47,12 +54,12 @@ export default {
 
 @media (min-width: 300px) {
   .top_font {
-    font-size: calc(1.5rem + ((1vw - 3px) * 1.9753));
+    font-size: calc(2.25rem + ((1vw - 3px) * 3.0864));
   }
 }
 @media (min-width: 1920px) {
   .top_font {
-    font-size: 56px;
+    font-size: 86px;
   }
 }
 </style>
