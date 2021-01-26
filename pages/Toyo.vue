@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="wrap">
-      <Article class="item" v-for="(item, i) in $store.state.Toyo" :key="i" :articleItem="item"></Article>
+      <Article class="item" v-for="(item, i) in $store.state.toyo" :key="i" :articleItem="item"></Article>
     </div>
     </div>
     <div class="source">
